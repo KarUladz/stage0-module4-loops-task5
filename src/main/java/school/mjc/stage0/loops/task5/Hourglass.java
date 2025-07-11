@@ -18,7 +18,7 @@ public class Hourglass {
                     break;
                 }
             }
-            System.out.println(builder.toString());
+            System.out.println(builder);
         }
 
         for (int i = middle - 1; i >= 0; i--) {
@@ -31,7 +31,7 @@ public class Hourglass {
                 }
                 builder.append(" ".repeat(i)).append("8".repeat(height - (i + i))).append(" ".repeat(i));
             }
-            System.out.println(builder.toString());
+            System.out.println(builder);
         }
 
 

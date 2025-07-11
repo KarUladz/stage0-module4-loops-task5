@@ -20,7 +20,7 @@ public class Square {
                     }
                 }
             }
-            System.out.println(builder.toString());
+            System.out.println(builder);
         }
     }
 }
